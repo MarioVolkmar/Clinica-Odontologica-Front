@@ -1,0 +1,32 @@
+button{
+    text-transform: uppercase;
+    padding: 1rem;
+    background: #f21d1d;
+    border: none;
+    color: white;
+    margin-top: 2rem;
+    width: 100%;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.images img{
+    width: 30%;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    filter: brightness(0);
+}
+
+.iconosRedes img{
+    width: 2rem;
+    height: 2rem;
+}

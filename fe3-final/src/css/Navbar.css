@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;  
+}
+nav{
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    padding: 5px 10%; 
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.menuNav{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}   
+
+.butHome{
+    font-size: 30px;
+}
+
+.butHome::first-letter{
+    color: crimson;    
+}
+
+.btnNav{
+    text-transform: none;
+    padding: 0;
+    background: none;
+    border: none;
+    color: black;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.textNav{
+    font-size: 15px;
+    color:rgb(98, 98, 100);
+    font-weight: bold;
+}

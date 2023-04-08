@@ -1,0 +1,51 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+#app.light {
+  background-color: #F4F4F4;
+  color:  #333333;
+}
+
+#app.dark {
+  background-color: #333333;
+  color: #F4F4F4;
+}
+
+#app.dark nav{
+  background-color: #2c3e50;
+  color: #F4F4F4;
+}
+
+#app.dark .butHome{
+  color: #F4F4F4;}
+
+#app.dark .butHome::first-letter{
+  color: red;    
+}
+
+#app.dark .textNav{
+  color: #F4F4F4;}
+
+#app.dark .card{
+  border-color: white;
+}
+
+#app.dark footer{
+  background-color: #2c3e50;
+  color: #F4F4F4;
+}
+
+#app.dark footer button{
+  background-color:  #333333;;
+  color: #F4F4F4;
+}
+
+#app.dark .description{
+  color:#F4F4F4;
+}
+
+#app.dark .form-container button{
+  background-color:   #2c3e50;
+  color: #F4F4F4;
+}
